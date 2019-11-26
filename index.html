@@ -1,0 +1,94 @@
+<!doctype html>
+	<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>BA - How We Work?</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+		<style>
+			#system-integrator-txt{
+				position:relative; top:-350px; left:450px;
+				font-size: 2em;
+			}
+			#factoryImg{
+				/*margin-left:350px;*/
+			}
+			#imgOverlay1{
+				position:relative;width:20%;top:-300px;left:-250px;
+			}
+			#imgOverlay2{
+				position:relative;top:-150px;left:550px;
+			}
+			#dev-team-1{
+				position:relative;
+				font-size:2em;
+			}
+		</style>
+	</head>
+
+	<body>
+		
+		<section class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+					<h1 class="display-1 text-uppercase text-center">How We Work?</h1>
+				</div>
+
+				<div class="col-12 text-center">
+					<img src="./img/handshake-1.gif" alt="CONTRACT" class="no-drag ">
+					<p class="display-4">After approval...</p>
+				</div>
+
+				<div class="col-12 text-center">
+					<p class="display-5">
+						
+					</p>
+					<p class="" style="margin-top:250px;">
+						<span id="system-integrator-txt">We assign a System Integrator in your factory...</span>
+						<img src="./img/factory-1.gif" alt="FACTORY" class="no-drag " id="factoryImg">
+						<img src="./img/dev-1.gif" alt="Assigned Developer" class="no-drag img-fluid img-responsive img-thumbnail" id="imgOverlay1">
+						<img src="./img/team-1.gif" alt="TEAM 1" class="no-drag " id="imgOverlay2">
+						<span id="dev-team-1">You hire developer(s) accoding to your need for customization...</span>
+					</p>
+				</div>
+				
+				<div class="col-12 text-center">
+					<img src="./img/team-2.gif" alt="TEAM 2" class="no-drag ">
+					<p class="display-4">We have a brilliant Core-Development Team...</p>
+					<p>
+						In support for the resources you hired. And you needn't to think about their payment :) 
+					</p>
+				</div>
+				
+				<div class="col-12 text-center">
+					<img src="./img/web-dev.gif" alt="CORE DEVELOPMENT" class="no-drag " width="50%">
+				</div>
+
+				<div class="col-12">
+					<p class="display-4 text-center mt-5 mb-5">This is how we actually implement the system in your factory...</p>
+				</div>
+				
+			</div>
+		</section>
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+		<script>
+		(function($){
+			$(document).ready(function(){
+				$(document).on('dragstart', '.no-drag', function(){
+					return false;
+				});
+			});
+		})(jQuery)
+		</script>
+	</body>
+</html>
